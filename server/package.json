@@ -1,0 +1,20 @@
+{
+  "name": "aig-tasker",
+  "version": "1.0.0",
+  "description": "AIG Tasker A simple and intuitive Kanban Board application built using React, designed to demonstrate clean UI design, state management, and CRUD operation.",
+  "license": "ISC",
+  "author": "SumaniqueCode",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "express": "^5.2.1",
+    "mongodb": "^7.0.0",
+    "mongoose": "^9.1.1",
+    "nodemon": "^3.1.11"
+  }
+}

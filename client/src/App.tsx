@@ -10,7 +10,8 @@ function App() {
     <Router>
       <Routes>
         <Route path='/' element={<Layout />} >
-          <Route index path="login" element={<Login />} />
+          <Route index element={<Login />} />
+          <Route path="login" element={<Login />} />
           <Route path='register' element={<Register />} />
           <Route path='tasks' element={<Tasks />} />
         </Route>

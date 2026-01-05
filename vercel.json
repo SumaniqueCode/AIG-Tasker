@@ -10,7 +10,7 @@
       "name": "backend",
       "rootDirectory": "server",
       "buildCommand": "npm install",
-      "devCommand": "node app.js",
+      "devCommand": "nodemon app.js",
       "outputDirectory": "."
     }
   ]

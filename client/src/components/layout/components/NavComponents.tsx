@@ -65,7 +65,7 @@ const NavComponents = () => {
         <MenuIcon />
       </IconButton>
       <Menu PaperProps={{ elevation: 4, sx: { mt: 1, minWidth: 180, borderRadius: 2, overflow: "hidden", }, }} anchorEl={anchorEl} open={open} onClose={handleClose} anchorOrigin={{ vertical: "bottom", horizontal: "right" }} transformOrigin={{ vertical: "top", horizontal: "right" }} >
-        <MenuItem sx={{ borderTop: '2px solid' }}><Link to="/" style={{ textDecoration: 'none', color: 'black', paddingInline: '6px', fontWeight: 500 }}> Home</Link></MenuItem>
+        <MenuItem sx={{ borderTop: '2px solid' }}><Link to="/tasks" style={{ textDecoration: 'none', color: 'black', paddingInline: '6px', fontWeight: 500 }}> Home</Link></MenuItem>
         {!user ? (
           <>
             <MenuItem sx={{ borderTop: '2px solid' }}><Link to="/login" style={{ textDecoration: 'none', color: 'black', paddingInline: '6px', fontWeight: 500,  }}>  Login</Link></MenuItem>

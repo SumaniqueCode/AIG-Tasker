@@ -10,9 +10,9 @@ function App() {
     <Router>
       <Routes>
         <Route path='/' element={<Layout />} >
-          <Route index element={<Tasks />} />
-          <Route path="login/" element={<Login />} />
-          <Route path='/register' element={<Register />} />
+          <Route index path="login" element={<Login />} />
+          <Route path='register' element={<Register />} />
+          <Route path='tasks' element={<Tasks />} />
         </Route>
       </Routes>
     </Router>

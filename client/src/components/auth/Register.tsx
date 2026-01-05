@@ -31,7 +31,7 @@ const Register = () => {
         const res = await registerUser(data);
         console.log("register response", res)
         localStorage.setItem("user", JSON.stringify(res.data.user));
-        navigate("/");
+        navigate("/tasks");
       } catch (error: any) {
         setIsLoading(false);
         formik.resetForm();

@@ -27,7 +27,7 @@ const Login = () => {
         setIsLoading(true);
         const res = await loginUser(data);
         localStorage.setItem("user", JSON.stringify(res.data.user));
-        window.location.href="/";
+        window.location.href="/tasks";
       } catch (error: any) {
         setIsLoading(false);
         formik.resetForm();

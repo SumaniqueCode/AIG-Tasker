@@ -1,0 +1,17 @@
+{
+  "projects": [
+    {
+      "name": "frontend",
+      "rootDirectory": "client",
+      "buildCommand": "npm install && npm run build",
+      "outputDirectory": "dist"
+    },
+    {
+      "name": "backend",
+      "rootDirectory": "server",
+      "buildCommand": "npm install",
+      "devCommand": "node app.js",
+      "outputDirectory": "."
+    }
+  ]
+}

@@ -1,8 +1,12 @@
 const mongoose = require("mongoose");
 
 let cached = global.mongoose;
-const uri = "mongodb+srv://aig-tasker:aig-tasker@cluster0.garfpzj.mongodb.net/aig-tasker?retryWrites=true&w=majority";
 
+//mongo atlas
+// const uri = "mongodb+srv://aig-tasker:aig-tasker@cluster0.garfpzj.mongodb.net/aig-tasker?retryWrites=true&w=majority";
+
+// railway uri
+const uri = "mongodb://mongo:aIgRlKhEKIpfPRKVwpqvPzBVkoAVMQKw@ballast.proxy.rlwy.net:47737";
 if (!cached) {
   cached = global.mongoose = { conn: null, promise: null };
 }
